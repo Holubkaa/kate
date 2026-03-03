@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-image: url(background/701079f512ba2f40a358eead6a32b5a1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+}
+
+.kate {
+    width: 300px;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.heart {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.header__title {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(246, 234, 241);
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+    padding: 3px;
+}
+
+.header__subtitle {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(246, 234, 241);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+    padding: 3px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery_item {
+    flex: 0 0 calc((100% - 60px) / 3);
+    text-align: center; 
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(246, 234, 241);
+}
+
+.gallery_item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.talents {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.separator {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
